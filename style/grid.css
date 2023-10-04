@@ -1,0 +1,141 @@
+
+
+
+.stark {
+
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 500px 500px 500px  ;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+.thor{
+
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: white;
+}
+
+.gwen{
+
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.doctor{
+
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.yelena{
+
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cap{
+
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.vision {
+
+    border: 0px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+
+@media (max-width: 900px) {
+    .stark { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+
+  @media (max-width: 500px) {
+    .stark { grid-template-columns: repeat(1, 1fr); }
+  }
+
+/* @media only screen and  (max-width: 600px) {
+    .stark { grid-template-columns: repeat(2, 1fr);  
+    }
+    
+} */
+
+
+.newyork {
+
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px 250px  ;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+.baku{
+
+    border: 0px solid black;
+    
+    
+   
+}
+
+.istanbul{
+
+    border: 0px solid black;
+    
+}
+
+.moscow{
+
+    border: 0px solid black;
+    
+}
+
+.berlin{
+
+    border: 0px solid black;
+   
+   
+}
+
+.milan{
+
+    border: 0px solid black;
+    
+}
+
+.denver {
+
+    border: 0px solid black;
+    
+   
+}
+
+@media (max-width: 900px) {
+    .newyork { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+
+  @media (max-width: 500px) {
+    .newyork { grid-template-columns: repeat(1, 1fr); }
+  }
